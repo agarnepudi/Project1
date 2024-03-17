@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta naem="viewport" content="width=device-width", initial-scale="1.0">
+        <!-- font link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-hVl3lEfgpdvK0sLcPufmy8vFByHmZWalXVZBJLl/PSaP4s2RoWp+OY1+awJNjkHUzF5BOoVkCxjzZr+zIQ2V4Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        
+        <!-- custome css file -->
+        <link rel="stylesheet" href="home.css">
+<!-- header section starts-->
+        <header>
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <a href="#" class ="logo"> <span>W</span>himsyWanderers</a>
+
+            <nav class="navbar">
+                <a href="#" id="home">Home</a>
+                <a href="#hidden" id="hidden-tours"> Hidden Tours</a>
+                <a href="#pgallery" id="photo-gallery">Photo Gallery</a>
+                <a href="#localevents">Local Events</a>
+                <a href="contact.html">Contact</a>
+                
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+                <form action="" class="search-bar-container">
+                    <input type="search" id="search-bar" placeholder="search here...">
+                    
+                    <label for="search-bar" class="fas fa-search"></label>
+                </form>
+                <script>
+                    // Selecting button element
+                    var button = document.getElementById("login-btn");
+                
+                    // Define the action to perform when the button is clicked
+                    button.addEventListener("click", function() {
+                        // Redirecting the button to login page
+                        window.location.href = "login.html";
+                    });
+                </script>
+            </div>
+            <script src="search.js" defer></script>
+
+
+            
+        </header>
+<!-- header section ends-->
+
+
+
+<!--home section starts-->
+
+
+            <section class="home" id="home">
+            <div class="content">
+                <h3> Travelling is an Adventure</h3>
+                <p> Discover the wonders with whimseywonders - your gateway to adventure and relaxation</p>
+                <a href="#" class="btn">Discover fully</a>
+            </div>
+
+            <div class="controls">
+                <span class="vid-btn active" data-src="homevideo.mp4"></span>
+                <span class="vid-btn" data-src="homevideo2.mp4"></span>
+                <span class="vid-btn" data-src="homevideo3.mp4"></span>
+                <span class="vid-btn" data-src="homevideo4.mp4"></span>
+                <span class="vid-btn" data-src="homevideo5.mp4"></span>
+            </div>
+    
+            <div class="video-container">
+                <video src="homevideo.mp4" id="video-slider" loop autoplay muted></video>
+            </div>
+
+            </section>
+
+            
+
+<!--home section ends-->
+
+<!--hidden tours section starts-->
+
+<section class="hidden" id="hidden"> 
+
+    <h1 class="heading">
+        <span>h</span>
+        <span>i</span>
+        <span>d</span>
+        <span>d</span>
+        <span>e</span>
+        <span>n</span>
+        <span class="space"></span>
+        <span>t</span>
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span>s</span>
+    </h1>
+
+
+    <div class="box-container">
+        <div class="box">
+
+            <img src="https://as1.ftcdn.net/v2/jpg/03/18/70/34/1000_F_318703466_mELrjn18UGPGcEuIpDTv7WOjOZppn0KQ.jpg" alt="Newfoundland">
+            <div class="content">
+                <h1> <i class="fas fa-map-marker-alt"></i>Newfoundland</h1>
+                <p>Where Coastlines Cradle Adventure and Culture</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <!-- Add a link to another HTML page -->
+                <a href="Victoria.html" class="btn">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Explore Newfoundland
+                </a>
+            </div>
+        </div>
+     
+
+  
+    <div class="box">
+
+        <img src="https://media.istockphoto.com/id/583807614/photo/quebec-city-skyline.jpg?s=612x612&w=is&k=20&c=6beIZteyg29rB4CFYpkXMpzBpZhzLZByhRymVQfsmrQ=" alt="Quebec">
+        <div class="content">
+            
+            <p> A Tapestry of Culture, Cuisine, and Charm</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+
+            </div>
+            <a href="Quebec.html" class="btn">
+                <i class="fas fa-map-marker-alt"></i>
+                Explore Quebec
+            </a>
+        </div>
+    </div>
+
+    <div class="box">
+
+        <img src="https://media.istockphoto.com/id/636577766/photo/skyline-of-toronto.jpg?s=612x612&w=0&k=20&c=jyBG3iVaAEtaCBo-ii3jV4ebPqrGSo_Ae3Ix9Lk5aV8=" alt="Ontario">
+        <div class="content">
+             
+            <p>Where Urban Energy and Natural Wonders Unite</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+
+            </div>
+            <a href="Ontario.html" class="btn">
+                <i class="fas fa-map-marker-alt"></i>
+                Explore Ontario
+            </a>
+        </div>
+    </div>
+    <div class="box">
+
+        <img src="https://www.shutterstock.com/image-photo/winnipeg-manitoba-canada-september-22-260nw-1955956429.jpg" alt="Manitoba">
+        <div class="content">
+             
+            <p> Where Pristine Wilderness Meets Vibrant Communities</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+            <a href="Manitoba.html" class="btn">
+                <i class="fas fa-map-marker-alt"></i>
+                Explore Manitoba
+            </a>
+        </div>
+    </div>
+    <div class="box">
+
+        <img src="https://photojourneys.ca/wp-content/uploads/2020/12/0799-Churchill-River.jpg" alt="Saskatchewan">
+        <div class="content">
+             
+            <p> Where Endless Skies Meet Boundless Adventures</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+            <a href="Victoria.html" class="btn">
+                <i class="fas fa-map-marker-alt"></i>
+                Explore Victoria
+            </a>
+            
+        </div>
+    </div>
+    <div class="box">
+
+        <img src="https://plus.unsplash.com/premium_photo-1669741908175-eb029fbc350f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnJpdGlzaCUyMGNvbHVtYmlhfGVufDB8fDB8fHww" alt="Columbia">
+        <div class="content">
+             
+            <p> Where Pacific Shores and Mountain Peaks Embrace</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+            <a href="Britishcolumbia.html" class="btn">
+                <i class="fas fa-map-marker-alt"></i>
+                Explore British Columbia
+            </a>
+        </div>
+    </div>
+    </div>          
+
+<!--hh-->
+
+
+<!--</section>
+           <section class="pgallery" id="gallery">
+            <h1 class="heading">
+                <span>g</span>
+                <span>a</span>
+                <span>l</span>
+                <span>l</span>
+                <span>e</span>
+                <span>r</span>
+                <span>y</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                   
+                    <div class="content">
+                        <h3>Newfoundland</h3>
+                        <a href="newfoundland.html" class ="btn">Read more</a>
+                    </div>
+                </div>
+              
+                <div class="box">
+                    <img src="Banff.jpg" alt="">
+                    <div class="content">
+                        <h3>DEMO</h3>
+                        <a href="#" class ="btn">Read more</a>
+                    </div>
+                </div>
+              
+            
+                <div class="box">
+                    <img src="Banff.jpg" alt="">
+                    <div class="content">
+                        <h3>DEMO</h3>
+                        <a href="#" class ="btn">Read more</a>
+                    </div>
+                </div>
+               
+            
+                <div class="box">
+                    <img src="Banff.jpg" alt="">
+                    <div class="content">
+                        <h3>DEMO</h3>
+                        <a href="#" class ="btn">Read more</a>
+                    </div>
+                </div>
+               
+                <div class="box">
+                    <img src="Banff.jpg" alt="">
+                    <div class="content">
+                        <h3>DEMO</h3>
+                        <a href="#" class ="btn">Read more</a>
+                    </div>
+                </div>
+              
+                <div class="box">
+                    <img src="Banff.jpg" alt="">
+                    <div class="content">
+                        <h3>DEMO</h3>
+                        <a href="#" class ="btn">Read more</a>
+                    </div>
+                </div>
+             
+                <div class="box">
+                    <img src="Banff.jpg" alt="">
+                    <div class="content">
+                        <h3>DEMO</h3>
+                        <a href="#" class ="btn">Read more</a>
+                    </div>
+                </div>
+              
+                <div class="box">
+                    <img src="Banff.jpg" alt="">
+                    <div class="content">
+                        <h3>DEMO</h3>
+                        <a href="#" class ="btn">Read more</a>
+                    </div>
+                </div>
+              
+            
+                <div class="box">
+                    <img src="Banff.jpg" alt="">
+                    <div class="content">
+                        <h3>DEMO</h3>
+                        <a href="#" class ="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+                   
+          </section>
+        -->
+            
+            
+           
+
+
+
+
+<!--hidden tours section ends-->
+
+
+        
+        <!-- Scroll down for home icon -->
+         <!-- Scroll down for home icon -->
+         <div id="scroll-icon">
+            <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+        </div>
+       
+        <!-- custome java script file-->
+     
+    <!-- scroll down for hidden tours-->
+    <script>
+        // Add event listener to Hidden Tours icon
+        document.getElementById('hidden-tours').addEventListener('click', function(event) {
+            // Prevent default link behavior
+            event.preventDefault();
+            // Scroll to the Hidden Tours section
+            document.querySelector('#hidden').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+       
+            /*// Add event listener to Home icon
+            document.getElementById('home').addEventListener('click', function(event) {
+                // Prevent default link behavior
+                event.preventDefault();
+                // Scroll to the top of the page
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }); */
+            <!-- scroll down for photo gallery-->
+        
+           /*document.getElementById('photo-gallery').addEventListener('click', function(event) {
+            // Prevent default link behavior
+            event.preventDefault();
+            // Scroll to the Photo Gallery section
+            document.querySelector('#gallery').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }); */
+               
+
+        
+    </script>
+ 
+    
+        
+    </head>

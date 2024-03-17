@@ -1,0 +1,78 @@
+/* contact.css */
+
+/* Center the contact form */
+.contact-form {
+    width: 100%; /* Change width to 100% */
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(rgba(140, 187, 190, 0.5), rgba(255, 201, 14, 0.5)), url('traveladventures-main\src\a.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+}
+
+/* Style the form container */
+.form-container {
+    width: 90%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Add some space between label and input */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="file"] {
+    width: calc(100% - 22px); /* Adjust width to accommodate for padding and border */
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Slightly transparent border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #4c7dc7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0871e2;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%;
+    }
+}
